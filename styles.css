@@ -1,0 +1,86 @@
+body {
+    background-color: #C2BEBC;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+#container {
+    overflow: hidden; /* contain floated elements */
+}
+
+#left {
+    float: left; 
+    width: 380px;
+
+}
+
+#right {
+    float: right; 
+    width: 47px;
+}
+
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.feup-logo{
+    margin-top: 40px;
+}
+
+.info{
+    color: #63635D;
+
+    margin-left: 50px;
+    line-height: 25px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    position:absolute;
+    bottom: 50px;
+}
+
+nav{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+nav a{
+    color: #972C2C;
+    text-decoration: none;
+    border-left: solid 1px #972C2C;
+    padding-left: 10px;
+    padding-right: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav a:first-child{
+    border-left: none;
+    padding-left: 0;
+}
+
+nav a:last-child{
+     padding-right: 0;
+}
+
+.content {
+    color: #63635D;
+    width: 460px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background: white;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
