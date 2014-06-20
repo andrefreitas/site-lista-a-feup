@@ -87,6 +87,7 @@ nav a:last-child{
     line-height: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 ol { 
@@ -158,10 +159,13 @@ a.right {
 .candidat {
     color: #231F20;
     width: 150px;
+    margin-bottom: 25px;
     text-align: center;
     font-size: 11px;
     line-height: 13px;
-    display: table-cell;
+    display: inline-block;
+    vertical-align: top;
+
 }
 
 .candidat img{

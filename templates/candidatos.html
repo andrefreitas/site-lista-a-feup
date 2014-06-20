@@ -2,10 +2,11 @@
 <a class="heading active left" href="#candidatos">Candidatos Efectivos</a> 
 <a class="heading right" href="#candidatos-suplentes">Candidatos Suplentes</a>
 </div>
-{{message}}
-<div class="candidat">
-    <img src="images/candidatos/antonio-torres-marques.jpg"/><br/>
-    <span class="name">António Torres Marques</span><br/>
-    <span class="position">Professor Catedrático</span><br/>
-    <span class="department">DEMEC</span>
+
+
+<div class="candidat" ng-repeat="candidat in candidats.candidats | filter : {type : 'effective'} ">
+    <img src="images/candidatos/{{candidat.image}}"/><br/>
+    <span class="name">{{candidat.name}}</span><br/>
+    <span class="position">{{candidat.position}}</span><br/>
+    <span class="department">{{candidat.department}}</span>
 </div>

@@ -2,3 +2,9 @@
     <a class="heading left" href="#candidatos">Candidatos Efectivos</a> 
     <a class="heading active right" href="#candidatos-suplentes">Candidatos Suplentes</a>
 </div>
+<div class="candidat" ng-repeat="candidat in candidats.candidats | filter : {type : 'substitute'} ">
+    <img src="images/candidatos/{{candidat.image}}"/><br/>
+    <span class="name">{{candidat.name}}</span><br/>
+    <span class="position">{{candidat.position}}</span><br/>
+    <span class="department">{{candidat.department}}</span>
+</div>

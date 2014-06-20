@@ -1,0 +1,129 @@
+[
+    {
+        "name":"António Torres Marques",
+        "position": "Professor Catedrático",
+        "department": "DEMEC",
+        "image":"antonio-torres-marques.jpg",
+        "type":"effective"
+        
+    },
+    {
+        "name":"João Bernardo de Sena Esteves Falcão e Cunha",
+        "position": "Professor Catedrático",
+        "department": "DEGI",
+        "image":"joao-falcao-e-cunha.jpg",
+        "type":"effective"
+    },
+    {
+        "name":"Adriano da Silva Carvalho",
+        "position": "Professor Associado com Agregação",
+        "department": "DEEC",
+        "image":"adriano-carvalho.jpg",
+        "type":"effective"
+    },   
+    {
+        "name":"Rui Artur Bártolo Calçada",
+        "position": "Professor Associado",
+        "department": "DEC",
+        "image":"rui-calcada.jpg",
+        "type":"effective"
+    }, 
+    {
+        "name":"António Augusto de Sousa",
+        "position": "Professor Associado",
+        "department": "DEI",
+        "image":"augusto-de-sousa.jpg",
+        "type":"effective"
+    },
+    {
+        "name":"Bernardo Sobrinho Simões de Almada Lobo",
+        "position": "Professor Associado",
+        "department": "DEGI",
+        "image":"bernardo-almada-lobo.jpg",
+        "type":"effective"
+    },  
+    {
+        "name":"Manuel António Moreira Alves",
+        "position": "Professor Auxiliar",
+        "department": "DEQ",
+        "image":"manuel-alves.jpg",
+        "type":"effective"
+    }, 
+    {
+        "name":"Diana Maria Carreira Pires Urbano",
+        "position": "Professora Auxiliar",
+        "department": "DEF",
+        "image":"diana-urbano.jpg",
+        "type":"effective"
+    }, 
+    {
+        "name":"Ana Maria Rodrigues de Sousa Faria de Mendonça",
+        "position": "Professora Associada",
+        "department": "DEEC",
+        "image":"ana-maria-mendonca.jpg",
+        "type":"effective"
+    }, 
+    {
+        "name":"António Joaquim Mendes Ferreira",
+        "position": "Professor Catedrático",
+        "department": "DEMEC",
+        "image":"antonio-mendes-ferreira.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Joaquim Eduardo Sousa Góis",
+        "position": "Professor Auxiliar",
+        "department": "DEM",
+        "image":"joaquim-gois.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Afonso António de Serra Neves",
+        "position": "Professor Associado com Agregação",
+        "department": "DEC",
+        "image":"afonso-serra-neves.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"José Joaquim de Melo Órfão",
+        "position": "Professor Associado",
+        "department": "DEQ",
+        "image":"jose-melo-orfao.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Maria Cristina de Carvalho Alves Ribeiro",
+        "position": "Professora Auxiliar",
+        "department": "DEI",
+        "image":"cristina-ribeiro.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Manuel Alberto Pereira Ricardo",
+        "position": "Professor Associado com Agregação",
+        "department": "DEEC",
+        "image":"manuel-pereira-ricardo.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"José Pedro Maia Pimentel Tavares",
+        "position": "Professor Auxiliar",
+        "department": "DEC",
+        "image":"jose-pedro-tavares.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Francisco Manuel Andrade Pires",
+        "position": "Professor Auxiliar",
+        "department": "DEMEC",
+        "image":"francisco-andrade-pires.jpg",
+        "type":"substitute"
+    }, 
+    {
+        "name":"Maria Antónia Carravilla",
+        "position": "Professora Associada com Agregação",
+        "department": "DEGI",
+        "image":"maria-antonia-carravilla.jpg",
+        "type":"substitute"
+    }
+]
