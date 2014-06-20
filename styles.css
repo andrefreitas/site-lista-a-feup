@@ -165,13 +165,14 @@ a.right {
     line-height: 13px;
     display: inline-block;
     vertical-align: top;
-
+    
 }
 
 .candidat img{
     height: 100px;
     width: auto;
     border: solid 4px #972C2C;
+    cursor: pointer;
 }
 
 .candidat .name{

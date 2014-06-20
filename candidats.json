@@ -1,5 +1,6 @@
 [
-    {
+    {   
+        "id": "ATM",
         "name":"António Torres Marques",
         "position": "Professor Catedrático",
         "department": "DEMEC",
@@ -7,7 +8,8 @@
         "type":"effective"
         
     },
-    {
+    {   
+        "id": "JFC",
         "name":"João Bernardo de Sena Esteves Falcão e Cunha",
         "position": "Professor Catedrático",
         "department": "DEGI",
@@ -15,6 +17,7 @@
         "type":"effective"
     },
     {
+        "id": "ASC",
         "name":"Adriano da Silva Carvalho",
         "position": "Professor Associado com Agregação",
         "department": "DEEC",
@@ -22,6 +25,7 @@
         "type":"effective"
     },   
     {
+        "id": "RBC",
         "name":"Rui Artur Bártolo Calçada",
         "position": "Professor Associado",
         "department": "DEC",
@@ -29,6 +33,7 @@
         "type":"effective"
     }, 
     {
+        "id" : "AAS",
         "name":"António Augusto de Sousa",
         "position": "Professor Associado",
         "department": "DEI",
@@ -36,13 +41,15 @@
         "type":"effective"
     },
     {
+        "id" : "BAL",
         "name":"Bernardo Sobrinho Simões de Almada Lobo",
         "position": "Professor Associado",
         "department": "DEGI",
         "image":"bernardo-almada-lobo.jpg",
         "type":"effective"
     },  
-    {
+    {   
+        "id" : "MMA",
         "name":"Manuel António Moreira Alves",
         "position": "Professor Auxiliar",
         "department": "DEQ",
@@ -50,6 +57,7 @@
         "type":"effective"
     }, 
     {
+        "id" : "DPU",
         "name":"Diana Maria Carreira Pires Urbano",
         "position": "Professora Auxiliar",
         "department": "DEF",
@@ -57,6 +65,7 @@
         "type":"effective"
     }, 
     {
+        "id": "ASM",
         "name":"Ana Maria Rodrigues de Sousa Faria de Mendonça",
         "position": "Professora Associada",
         "department": "DEEC",
@@ -64,6 +73,7 @@
         "type":"effective"
     }, 
     {
+        "id": "AMF",
         "name":"António Joaquim Mendes Ferreira",
         "position": "Professor Catedrático",
         "department": "DEMEC",
@@ -71,6 +81,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "JSG",
         "name":"Joaquim Eduardo Sousa Góis",
         "position": "Professor Auxiliar",
         "department": "DEM",
@@ -78,6 +89,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "ASN",
         "name":"Afonso António de Serra Neves",
         "position": "Professor Associado com Agregação",
         "department": "DEC",
@@ -85,13 +97,15 @@
         "type":"substitute"
     }, 
     {
+        "id" : "JMO",
         "name":"José Joaquim de Melo Órfão",
         "position": "Professor Associado",
         "department": "DEQ",
         "image":"jose-melo-orfao.jpg",
         "type":"substitute"
     }, 
-    {
+    {   
+        "id" : "MCR",
         "name":"Maria Cristina de Carvalho Alves Ribeiro",
         "position": "Professora Auxiliar",
         "department": "DEI",
@@ -99,6 +113,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "MPR",
         "name":"Manuel Alberto Pereira Ricardo",
         "position": "Professor Associado com Agregação",
         "department": "DEEC",
@@ -106,6 +121,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "JPT",
         "name":"José Pedro Maia Pimentel Tavares",
         "position": "Professor Auxiliar",
         "department": "DEC",
@@ -113,6 +129,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "FAP",
         "name":"Francisco Manuel Andrade Pires",
         "position": "Professor Auxiliar",
         "department": "DEMEC",
@@ -120,6 +137,7 @@
         "type":"substitute"
     }, 
     {
+        "id" : "MAC",
         "name":"Maria Antónia Carravilla",
         "position": "Professora Associada com Agregação",
         "department": "DEGI",
