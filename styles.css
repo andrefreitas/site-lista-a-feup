@@ -40,6 +40,15 @@ body {
     bottom: 50px;
 }
 
+.info a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info a:hover{
+    text-decoration: underline;
+}
+
 nav{
     margin: 0 auto;
     width: 500px;
@@ -112,4 +121,66 @@ h3{
     margin-bottom: 20px;
     font-size: 14px;
     text-decoration: underline;
+}
+
+.index li{
+    cursor: pointer;
+}
+
+.index a:hover{
+    text-decoration: underline;
+}
+
+a.heading{
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+    font-weight: bold;
+    color: #999790;
+}
+
+a.heading.active{
+    color: inherit;
+}
+
+a.left{
+    float: left;
+}
+
+a.right {
+    float: right;
+}
+
+.head{
+    height: 50px;
+}
+
+.candidat {
+    color: #231F20;
+    width: 150px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 13px;
+    display: table-cell;
+}
+
+.candidat img{
+    height: 100px;
+    width: auto;
+    border: solid 4px #972C2C;
+}
+
+.candidat .name{
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.candidat .position {
+   
+}
+
+.candidat .department {
+    font-weight: bold;
+    font-size: 10px;
+   
 }

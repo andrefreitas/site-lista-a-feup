@@ -9,6 +9,10 @@ sampleApp.config(['$routeProvider',
         templateUrl: 'templates/candidatos.html',
         controller: 'CandidatosController'
     }).
+      when('/candidatos-suplentes', {
+        templateUrl: 'templates/candidatos-suplentes.html',
+        controller: 'CandidatosSuplentesController'
+    }).
       when('/proposta', {
         templateUrl: 'templates/proposta.html',
         controller: 'PropostaController'
@@ -33,6 +37,11 @@ sampleApp.controller('CandidatosController', function($scope) {
      
 });
  
+sampleApp.controller('CandidatosSuplentesController', function($scope) {
+     
+    $scope.message = 'Candidatos';
+     
+});
  
 sampleApp.controller('PropostaController', function($scope) {
  
@@ -50,4 +59,12 @@ sampleApp.controller('InfoController', function($scope) {
  
     $scope.message = 'Info';
  
+});
+
+sampleApp.controller('MainCtrl', function($scope, $location, $anchorScroll) {
+  $scope.scrollTo = function(id) {
+    $location.hash(id);
+    console.log($location.hash());
+    $anchorScroll();
+  };
 });
