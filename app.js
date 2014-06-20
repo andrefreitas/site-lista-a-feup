@@ -42,6 +42,44 @@ sampleApp.config(['$routeProvider',
                       when('/info', {
                           templateUrl: 'templates/info.html',
                           controller: 'InfoController'
+                      }). // This is stupid but dynamic params are not working on the legacy version
+                      when('/AMF', {
+                          templateUrl: 'templates/candidatos/AMF.html'
+                      }). when('/ATM', {
+                          templateUrl: 'templates/candidatos/ATM.html'
+                      }).when('/JFC', {
+                          templateUrl: 'templates/candidatos/JFC.html'
+                      }).when('/ASC', {
+                          templateUrl: 'templates/candidatos/ASC.html'
+                      }).when('/RBC', {
+                          templateUrl: 'templates/candidatos/RBC.html'
+                      }).when('/AAS', {
+                          templateUrl: 'templates/candidatos/AAS.html'
+                      }).
+                      when('/BAL', {
+                          templateUrl: 'templates/candidatos/BAL.html'
+                      }).when('/MMA', {
+                          templateUrl: 'templates/candidatos/MMA.html'
+                      }).when('/DPU', {
+                          templateUrl: 'templates/candidatos/DPU.html'
+                      }).when('/ASM', {
+                          templateUrl: 'templates/candidatos/ASM.html'
+                      }).when('/JSG', {
+                          templateUrl: 'templates/candidatos/JSG.html'
+                      }).when('/ASN', {
+                          templateUrl: 'templates/candidatos/ASN.html'
+                      }).when('/JMO', {
+                          templateUrl: 'templates/candidatos/JMO.html'
+                      }).when('/MCR', {
+                          templateUrl: 'templates/candidatos/MCR.html'
+                      }).when('/MPR', {
+                          templateUrl: 'templates/candidatos/MPR.html'
+                      }).when('/JPT', {
+                          templateUrl: 'templates/candidatos/JPT.html'
+                      }).when('/FAP', {
+                          templateUrl: 'templates/candidatos/FAP.html'
+                      }).when('/MAC', {
+                          templateUrl: 'templates/candidatos/MAC.html'
                       }).
                       otherwise({
                           redirectTo: '/proposta'

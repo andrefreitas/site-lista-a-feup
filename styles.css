@@ -189,3 +189,43 @@ a.right {
     font-size: 10px;
    
 }
+
+.photo{
+    height: 100px;
+    width: auto;
+    width: auto;
+    border: solid 4px #972C2C;
+    cursor: pointer;
+   
+}
+
+.name {
+    color: #231F20;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.department{
+      color: #231F20;
+}
+.position{
+    color: #231F20;
+    font-weight: bold;
+}
+
+.email{
+    color: #231F20;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.email a{
+    color: inherit;
+}
+
+img.close{
+    float: right;
+}

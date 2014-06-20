@@ -5,7 +5,7 @@
 
 
 <div class="candidat" ng-repeat="candidat in candidats.candidats | filter : {type : 'effective'} ">
-    <img src="images/candidatos/{{candidat.image}}"/><br/>
+    <a href="#/{{candidat.id}}"><img src="images/candidatos/{{candidat.image}}"/></a><br/>
     <span class="name">{{candidat.name}}</span><br/>
     <span class="position">{{candidat.position}}</span><br/>
     <span class="department">{{candidat.department}}</span>
