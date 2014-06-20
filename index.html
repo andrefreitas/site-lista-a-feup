@@ -5,31 +5,17 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="UTF-8">
     </head>
-    <body ng-app="sampleApp" ng-controller="MainCtrl">
-        <div id="container">
-            <div id="left">
-                <img src="images/corner-banner.png">
-                <div class="info">
-                    <a href="mailto:feupfuturo@fe.up.pt">FEUPfuturo@fe.up.pt</a> <br/>
+    <body>
+        <img src="images/landing-left.png" class="landing-left">
+        <img src="images/right-triangle.png" class="landing-triangle">
+        <div class="landing-info">
+             <a href="mailto:feupfuturo@fe.up.pt">FEUPfuturo@fe.up.pt</a> <br/>
                     www.fe.up.pt/FEUPfuturo<br/>
-                    <img src="images/logo-feup.png" height="60px" class="feup-logo">
-                </div>
-            </div>
-            <div id="right"><img src="images/right-triangle.png"></div>
-            <div id="center">
-                <nav>
-                    <a href="#candidatos">Candidatos</a>
-                    <a href="#proposta">Proposta da lista</a>
-                    <a href="#apresentacao">Apresentação Pública</a>
-                    <a href="#info">+informação</a>
-                </nav>
-                <div class="content">
-                   <div ng-view></div>
-                </div>
-            </div>
         </div>
         
-          <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
-    <script src="app.js"></script>
+        <a href="page.html#/proposta" class="links proposta">Proposta da lista</a>
+        <a href="page.html#/candidatos" class="links candidatos">Candidatos</a>
+        <a href="page.html#/info" class="links informacao">+ informação</a>
+        <a href="page.html#/apresentacao" class="links apresentacao">Apresentação Pública</a>
     </body>
 </html>

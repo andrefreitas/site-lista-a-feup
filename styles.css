@@ -32,7 +32,6 @@ body {
 
 .info{
     color: #63635D;
-
     margin-left: 50px;
     line-height: 25px;
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -88,6 +87,10 @@ nav a:last-child{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: justify;
     margin-bottom: 20px;
+}
+
+.content a{
+    color: inherit;
 }
 
 ol { 
@@ -228,4 +231,72 @@ a.right {
 
 img.close{
     float: right;
+}
+
+.landing-left{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.landing-triangle{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+.landing-info{
+    color: #63635D;
+    margin-left: 50px;
+    line-height: 25px;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    position:absolute;
+    bottom: 150px;
+    right: 150px;
+}
+
+.landing-info a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a.links{
+    text-decoration: none;
+    color: #972C2C;
+}
+
+.links {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.links.proposta{
+    bottom: 333px;
+    left: -5px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.links.candidatos{
+    left: 130px;
+    bottom: 490px;
+}
+
+.links.informacao{
+    left: 295px;
+     -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    bottom: 65px
+}
+
+.links.apresentacao{
+    left: 295px;
+     -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    bottom: 65px
 }

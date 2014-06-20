@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista A - FEUP para o Futuro</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <meta charset="UTF-8">
+    </head>
+    <body ng-app="sampleApp" ng-controller="MainCtrl">
+        <div id="container">
+            <div id="left">
+                <a href="/"><img src="images/corner-banner.png"></a>
+                <div class="info">
+                    <a href="mailto:feupfuturo@fe.up.pt">FEUPfuturo@fe.up.pt</a> <br/>
+                    www.fe.up.pt/FEUPfuturo<br/>
+                    <img src="images/logo-feup.png" height="60px" class="feup-logo">
+                </div>
+            </div>
+            <div id="right"><img src="images/right-triangle.png"></div>
+            <div id="center">
+                <nav>
+                    <a href="#candidatos">Candidatos</a>
+                    <a href="#proposta">Proposta da lista</a>
+                    <a href="#apresentacao">Apresentação Pública</a>
+                    <a href="#info">+informação</a>
+                </nav>
+                <div class="content">
+                   <div ng-view></div>
+                </div>
+            </div>
+        </div>
+        
+          <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="app.js"></script>
+    </body>
+</html>
