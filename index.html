@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="UTF-8">
     </head>
-    <body>
+    <body ng-app="sampleApp">
         <div id="container">
             <div id="left">
                 <img src="images/corner-banner.png">
@@ -18,19 +18,18 @@
             <div id="right"><img src="images/right-triangle.png"></div>
             <div id="center">
                 <nav>
-                    <a href="#">Candidatos</a>
-                    <a href="#">Proposta da lista</a>
-                    <a href="#">Apresentação Pública</a>
-                    <a href="#">+informação</a>
+                    <a href="#candidatos">Candidatos</a>
+                    <a href="#proposta">Proposta da lista</a>
+                    <a href="#apresentacao">Apresentação Pública</a>
+                    <a href="#info">+informação</a>
                 </nav>
                 <div class="content">
-                    <h1>4. Linhas orientadoras</h1>
-                    4.1 Envolvimento e Valorização dos Docente Investigadores e Técnicos<br/>
-                    4.2 Educação, Investigação e Inovação<br/>
-                    4.3 Cultura, Desporto e Responsabilidade Ambiental e Social<br/>
-                    4.4 Gestão
+                   <div ng-view></div>
                 </div>
             </div>
         </div>
+        
+          <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+    <script src="app.js"></script>
     </body>
 </html>
