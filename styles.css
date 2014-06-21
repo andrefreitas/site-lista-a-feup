@@ -301,3 +301,9 @@ a.links{
     -o-transform:  translate(400px,-120px) rotate(-90deg);
     -ms-transform: translate(400px,-120px) rotate(-90deg);
 }
+
+.contents {
+    height: 500px;
+    padding-right: 30px;
+    overflow: scroll;
+}
