@@ -278,6 +278,7 @@ a.links{
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
 }
 
 .links.candidatos{
@@ -287,16 +288,16 @@ a.links{
 
 .links.informacao{
     left: 295px;
-     -webkit-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     bottom: 65px
 }
 
 .links.apresentacao{
-    left: 295px;
-     -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    bottom: 65px
+    -webkit-transform:  translate(400px,-120px) rotate(-90deg);
+    -moz-transform:  translate(400px,-120px) rotate(-90deg);
+    -o-transform:  translate(400px,-120px) rotate(-90deg);
+    -ms-transform: translate(400px,-120px) rotate(-90deg);
 }
